@@ -1,5 +1,8 @@
 from setuptools import find_packages, setup
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name="lucchesi_fib_py",
     version="0.0.1",
@@ -8,7 +11,7 @@ setup(
     description="Calculates a Fibonacci number",
     long_description="A basic library that calculates Fibonacci numbers",
     long_description_content_type="text/markdown",
-    url="https://github.com/ViniciusLucchesi/lucchesi-fib-py.git",
+    url="https://github.com/ViniciusLucchesi/lucchesi-fib-py",
     install_requires=[],
     packages=find_packages(exclude=("tests"),),
     classifiers=[
