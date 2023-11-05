@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="lucchesi_fib_py",
-    version="0.0.1",
+    version="0.0.2",
     author="Vinicius Lucchesi",
     author_email="viniciuslucchesi.ti@gmail.com",
     description="Calculates a Fibonacci number",
